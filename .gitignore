@@ -57,6 +57,9 @@ temp_ucf_qa/
 data/*.json
 data/*.csv
 !data/.gitkeep
+docs/*.docx
+docs/*.pdf
+docs/*.png
 
 # FAISS Index
 *.faiss
