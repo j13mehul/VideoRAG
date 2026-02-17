@@ -1,0 +1,40 @@
+# Video RAG Pipeline Dependencies
+
+# Core ML/AI Libraries
+torch>=2.0.0
+torchvision>=0.15.0
+open-clip-torch>=2.20.0
+faiss-cpu>=1.7.4
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+
+# Computer Vision & Object Detection
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+Pillow>=9.5.0
+
+# Video Processing
+python-ffmpeg>=2.0.0
+
+# Object Tracking
+supervision>=0.16.0
+
+# API Framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# Utility
+python-multipart>=0.0.6
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0

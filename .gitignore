@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Video/Image Processing Outputs
+outputs/
+uploaded_output/
+cache/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model Files
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Data Files (large)
+sampledata/
+temp_ucf_qa/
+data/*.json
+data/*.csv
+!data/.gitkeep
+
+# FAISS Index
+*.faiss
+faiss_index.bin
+
+# Logs
+*.log
+logs/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+
+# Documentation build artifacts
+docs/_build/
+
+# Keep specific directories
+!artifacts/
+!src/
+!testscripts/
